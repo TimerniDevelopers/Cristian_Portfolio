@@ -2250,3 +2250,27 @@ color: var(--bg-theme-color1);
 }
 
 
+
+@media only screen and (min-width: 320px) and (max-width: 991px){
+  .testimonials-title {
+    font-size: 50px;
+  }
+  .banner-middle-title h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 575px){
+
+  .timeline-container li > div {
+    width: 90%;
+  }
+  .timeline-container li > div:before,
+  .timeline-container li:before,
+  .timeline-container:after,
+  .timeline-container li:first-child div:after, .timeline-container li:last-child div:after {
+     display: none;
+  }
+  .testimonials-title {
+    font-size: 40px;
+  }
+}
