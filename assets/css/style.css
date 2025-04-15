@@ -2317,3 +2317,7 @@ color: var(--bg-theme-color1);
 .single-service-content .service-title{
   color: #fff;
 }
+.single-service-content .service-title{
+  font-size:16px;
+  font-weight: 600;
+}
