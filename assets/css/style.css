@@ -1266,6 +1266,7 @@ color: var(--bg-theme-color1);
   position: relative;
   margin-bottom: 30px;
   z-index: 5;
+  text-align: center;
 }
 .service-block-wrapper .service-item{
   position: relative;
@@ -1300,18 +1301,23 @@ color: var(--bg-theme-color1);
   height: 100px;
   background-color: #f4f5f8;
   padding: 10px;
+  margin-bottom: 5px;
 }
 .service-item h3 {
   color: #202430;
   font-size: 22px;
   font-weight: 500;
   line-height: 1.3em;
-  margin: 15px 0px;
+  margin: 13px 0px;
+}
+.service-block-wrapper .service-item p{
+  margin-bottom: 0px;
+
 }
 .service-block-wrapper .service-item:hover p{
   color: #fff;
 }
-.service-block-wrapper2{
+/* .service-block-wrapper2{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -1360,7 +1366,7 @@ color: var(--bg-theme-color1);
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-}
+} */
 /* skill  */
 .skill-section{
   position: relative;
