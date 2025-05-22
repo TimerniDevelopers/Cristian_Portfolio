@@ -1264,7 +1264,6 @@ color: var(--bg-theme-color1);
 /* service  */
 .service-block-wrapper {
   position: relative;
-  margin-bottom: 30px;
   z-index: 5;
   text-align: center;
 }
